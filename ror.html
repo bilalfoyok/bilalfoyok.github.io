@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Love</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 3em;
+        }
+        .heart {
+            font-size: 100px;
+            color: #ff1744;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        .heart.animate {
+            transform: scale(1.5);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ad1457;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Spread Love with a Click</h1>
+    <button id="loveButton">Click to Show Love</button>
+    
+    <div id="heart" class="heart">❤️</div>
